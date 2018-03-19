@@ -1,0 +1,29 @@
+{
+  "agencies": [
+      {
+        "name":"Chicago Transit Agency",
+        "zip":"http://www.transitchicago.com/downloads/sch_data/google_transit.zip",
+        "build": false,
+        "download": false
+      },
+      {
+        "name":"Pace",
+        "zip": "http://www.pacebus.com/gtfs/gtfs.zip",
+        "build": true,
+        "download": false
+      }
+  ],
+  "fileNames": {
+    "calendar": "calendar.txt",
+    "manifest": "dist/manifest.json",
+    "indexRoutes": "routesIndex.json"
+  },
+  "folderNames": {
+    "zip"       : "dist/zip/",
+    "unzip"     : "dist/csv/",
+    "data"      : "dist/data/",
+    "context"   : "dist/context",
+    "app"       : "dist/www/",
+    "routes"    : "routes/"
+  }
+}

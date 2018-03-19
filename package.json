@@ -1,0 +1,12 @@
+{
+  "name": "bus.fyi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^1.1.9",
+    "decompress": "^4.2.0",
+    "jsondir": "^0.1.3"
+  }
+}
